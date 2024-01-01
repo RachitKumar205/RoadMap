@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-s5rxec401_99wnct+2%cqy&ff+9l*q8h_%h$t(kij)n(#@)(pj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost",'roadmaps-backend.azurewebsites.net']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
