@@ -30,7 +30,8 @@ class UserLoginAPIView(APIView):
             return JsonResponse({
                 'token': token.key,
                 'pk': user.id,
-                'username': user.username
+                'username': user.username,
+                'email': user.email
             })
         else:
             return JsonResponse({'error': 'Invalid credentials'}, status=401)

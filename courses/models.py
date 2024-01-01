@@ -8,6 +8,7 @@ class Video(models.Model):
     url = models.CharField(max_length=255)
     thumbnail = models.CharField(max_length=255)
 
+
 class RoadMap(models.Model):
     name = models.CharField(max_length=255)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
